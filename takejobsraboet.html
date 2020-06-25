@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Sraboet Take Job</title>
+
+	<link rel="stylesheet" type="text/css" href="css/takejob.css">
+
+	<script type="text/javascript" src="js/dateandtime.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body onload="startTime()">
+	<div class = "headertakejob">
+
+		<div class = "headerlogo">
+			<img src = "assets/logo.png">
+		</div>
+
+		<div class=" datentime" >
+			<p id="datetime"></p>
+		</div>
+
+		<div class = "inbox">
+			<a href="inboxsraboet.html"><img src = "assets/mail.png"></a>
+		</div>
+
+		 <div class = "dropdownheader">
+			<button onclick = "dropdownfunction()" class = "dropbtn">Menu &#x25BC;</button>
+
+			<div id = "dropdownmenu" class = "dropdown-content">
+
+				<a href="sraboetclienthomepage.html">Switch to Client</a>
+
+				<p>-------------------------</p>
+				
+				<a href="sraboetaccountsettings.html">Account Settings</a>
+
+				<p>-------------------------</p>
+				
+				<a href="sraboetjobhistory.html">Job History</a>
+				
+				<p>-------------------------</p>
+
+				<a href="loginsraboet.html">Logout</a>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class = "container">
+		
+		<div class = "jobtitle">
+			<label><b>Title</b></label><br>
+		</div>
+			<div class = "titlebox">
+				titlejobsample
+			</div><br><br>
+
+		<div class = "jobdesc">
+			<label><b>Description</b></label>
+		</div>
+			<div class = "descbox">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		
+		<div class = "appointmentbtn">
+			<div class = "backbtn">
+				<button type = "button" onclick="history.back()">Back</button>
+			</div>
+
+			<div class = "acceptbtn">
+				<a href="appointmentfreelancersraboet.html"><button type = "button">Accept</button></a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class = "footer">
+		<div class="copyrightfooter">
+			<label for="Copyright">Copyright &copy; Sraboet 2020</label>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/validationdropdown.js"></script>
+
+</body>
+</html>

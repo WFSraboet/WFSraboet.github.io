@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register Sraboet</title>
+
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+	<div class="headerregister">
+
+		<img src="assets/logo.png">
+
+	</div>	
+
+	
+	<div class="containerregister">
+
+			<label><b>Email</b></label><br>
+			<input type="email" placeholder="masukkan email anda" id="emailrgs"><br>
+			
+			<label><b>Username</b></label><br>
+			<input type="text" placeholder="masukkan nama anda" id="usernamergs"><br>
+
+			<label><b>Password</b></label><br>
+			<input type="password" placeholder="masukkan password anda" id="passwordrgs"><br>
+
+			<label><b>ID Number</b></label><br>
+			<input type="text" placeholder="masukkan nomor KTP anda" id="KTPrgs"><br>
+
+			<label><b>Phone Number</b></label><br>
+			<input type="text" placeholder="masukkan nomor telepon anda" id="phonergs"><br>
+
+				<div id="err_msg"></div>
+
+				<div class="registerbtn">
+				
+					<button type="button" onclick="validatergs()">Register</button><br>
+				</div>
+
+				<div class="alreadyakun">
+					
+					<br><p>Sudah Punya Akun? Silahkan <a href="loginsraboet.html">Login</a></p>
+
+				</div>
+				
+	</div>
+
+	<div class="footerregister">
+
+		<div class="copyrightfooter">
+				
+				<label for="Copyright">Copyright &copy; Sraboet 2020</label>
+			
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/validationregister.js"></script>
+
+</body>
+</html>

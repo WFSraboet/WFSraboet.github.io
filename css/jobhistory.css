@@ -1,0 +1,212 @@
+*{
+	font-family: Arial;
+  margin: 0 auto;
+}
+
+.headerjh {
+  width: 100%;
+  height: 100px;
+  background-color: #3498DB;
+  display: flex;
+}
+
+.headerlogo img {
+	margin-top: 10px;
+  width: 130px;
+  height: 80px;
+}
+
+.datentime {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 900px;
+  font-size: 12pt;
+  color: white;
+  font-weight: bold;
+}
+
+.inbox img {
+  margin-top: 35px;
+  margin-left: 988px;
+  width: 40px;
+  height: 30px;
+  border: 1px solid white;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  margin-top: 30px;
+  background-color: #3498DB;
+  color: white;
+  padding: 10px;
+  font-size: 17px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdownheader {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3498DB;
+  color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #2980B9
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display:block;
+}
+
+.container {
+  background-color: skyblue;
+  padding-top: 80px;
+  padding-bottom: 184px;
+}
+
+.jhtitle {
+  background-color: white;
+  color: #12809c;
+  padding-top: 100px;
+  border: 5px solid #12809c;
+  width: 1000px;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.jhbox {
+  background-color: white;
+  text-decoration-color: skyblue;
+  width: 1000px;
+  height: 300px;
+  padding: 5px;
+  margin-top: -5px;
+  border: 5px solid #12809c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.jhlist {
+  background-color: lightgrey;
+  font-size: 12pt;
+  font-weight: bold;
+  width: 935px;
+  height: 30px;
+  border: 2px solid #ccc;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  margin-left: 1px;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#fbtn {
+  margin-top: -32px;
+  margin-right: 10px;
+  width: 50px;
+  height: 30px;
+  background-color: white;
+  color: blue;
+  font-size: 12pt;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+  float: right;
+  border-radius: 5px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.copyrightfooter {
+	width: 100%;
+	height: 35px;
+	background-color: blue;
+	color: white;
+	font-size: 15pt;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+}

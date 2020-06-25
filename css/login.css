@@ -1,0 +1,87 @@
+*{
+	font-family: Arial;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.headerlogin {
+	background-color: #15a9e0;
+}
+
+.headerlogin img{
+  padding-top: 10px;
+	margin-bottom: 30px;
+	width: 200px;
+	height: 150px;
+	transform: translate(0%, 10%);
+}
+
+.containerlogin {
+  background-color: #15a9e0;
+  font-size: 20pt;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 64px;
+}
+
+input[type=text], input[type=password] {
+  background-color: white;
+  font-size: 14pt;
+  color: black;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.footerlogin {
+	background-color: #15a9e0; 
+}
+
+#err_msg{
+  color: #e50736;
+  text-shadow: none;
+}
+
+.loginbtn button{
+  background-color: #45dd1d;
+  color: white;
+  font-size: 20pt;
+  padding: 12px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.registerbtn button {
+  background-color: #0047f3;
+  color: white;
+  font-size: 20pt;
+  padding: 12px;
+  margin-top: 8px;
+  margin-bottom: 86px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.copyrightfooter {
+	width: 100%;
+	height: 35px;
+	background-color: blue;
+	color: white;
+	font-size: 15pt;
+	font-weight: bold;
+	align-items: center;
+	padding-top: 15px;
+}

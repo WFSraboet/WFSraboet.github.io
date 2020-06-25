@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Sraboet Freelancer Homepage</title>
+
+	<link rel="stylesheet" type="text/css" href="css/freelancerhp.css">
+
+	<script type="text/javascript" src="js/dateandtime.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body onload="startTime()">
+	<div class = "headerfreelancerhp">
+
+		<div class = "headerlogo">
+			<img src = "assets/logo.png">
+		</div>
+
+		<div class=" datentime" >
+			<p id="datetime"></p>
+		</div>
+
+		<div class = "inbox">
+			<a href="inboxsraboet.html"><img src = "assets/mail.png"></a>
+		</div>
+
+		 <div class = "dropdownheader">
+			<button onclick = "dropdownfunction()" class = "dropbtn">Menu &#x25BC;</button>
+
+			<div id = "dropdownmenu" class = "dropdown-content">
+
+				<a href="sraboetclienthomepage.html">Switch to Client</a>
+
+				<p>-------------------------</p>
+				
+				<a href="sraboetaccountsettings.html">Account Settings</a>
+
+				<p>-------------------------</p>
+				
+				<a href="sraboetjobhistory.html">Job History</a>
+				
+				<p>-------------------------</p>
+
+				<a href="loginsraboet.html">Logout</a>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class = "container">
+		<div class="joblistcontainer">
+			<div class = "joblist">
+				<label><b>Job List</b></label>
+			</div>
+
+			<div class="jlbox">
+				<div class="tabjl">
+					<a href="takejobsraboet.html" style="text-decoration:none"><p>titlejobsample</p></a>
+					<!-- href langsung menuju job title yang disebut dan title retrieve dari database job yg sudah di post 
+					masukan looping untuk retrieve data dan +1 untuk setiap job yang di post-->
+				</div>
+			</div>
+		</div>
+		
+		<div class="jobfeedscontainer">
+			<div class = "jobfeeds">
+				<label><b>Job Feeds</b></label>
+			</div>
+
+			<div class="jfbox">
+				<div class="tabjf">
+					<a href="appointmentfreelancersraboet.html" style="text-decoration:none"><p>titlejobsample</p></a>
+					<!-- href langsung menuju job title yang disebut dan title retrieve dari database job yg sudah di post 
+					masukan looping untuk retrieve data dan +1 untuk setiap job yang di post-->
+				</div>
+			</div>	
+		</div>
+
+	</div>
+
+	<div class = "footer">
+		<div class="copyrightfooter">
+			<label for="Copyright">Copyright &copy; Sraboet 2020</label>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/validationdropdown.js"></script>
+
+</body>
+</html>

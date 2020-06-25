@@ -1,0 +1,73 @@
+*{
+	font-family: Arial;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.headerchooserole {
+	background-color: #15a9e0;
+}
+
+.headerchooserole img{
+	padding-top: 20px;
+	width: 200px;
+	height: 150px;
+	transform: translate(0%, 10%);
+}
+
+.containerchooserole {
+	color: white;
+	background-color: #15a9e0;
+	padding-top: 50px;
+	padding-bottom: 64px;
+}
+
+.titlechooserole{
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-size: 30pt;
+}
+
+.freelancerbtn button{
+  background-color: blue;
+  color: white;
+  font-size: 20pt;
+  padding: 12px;
+  margin: 8px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.clientbtn button{
+  background-color: orange;
+  color: white;
+  font-size: 20pt;
+  padding: 12px;
+  margin: 30px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 30%;
+}
+
+.subtitlechooserole{
+	padding-bottom: 85px;
+	font-size: 15pt;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.copyrightfooter {
+	width: 100%;
+	height: 35px;
+	background-color: blue;
+	color: white;
+	font-size: 15pt;
+	font-weight: bold;
+	align-items: center;
+	padding-top: 15px;
+}
