@@ -19,8 +19,9 @@
 .containerlogin {
   background-color: #15a9e0;
   font-size: 20pt;
-
-  height: 600px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 64px;
 }
 
 input[type=text], input[type=password] {
