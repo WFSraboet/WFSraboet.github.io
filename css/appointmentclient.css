@@ -101,6 +101,12 @@
   padding-bottom: 50px;
 }
 
+.pagelabel {
+  color: white;
+  font-size: 30pt;
+  margin-left: 40%;
+}
+
 .freelancerprofile {
   width: 500px;
   height: 50px;
