@@ -13,6 +13,6 @@ function validateappointment(){
 	}
 	else{
 		err.innerHTML = "";
-		alert("post sudah dibuat!");
+		alert("post berhasil dibuat!");
 	}
 }
