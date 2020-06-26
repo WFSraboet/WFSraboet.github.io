@@ -37,6 +37,6 @@ function validatergs(){
 	}
 
 	else {
-		 location.replace("loginsraboet.html");
+		 location.replace("index.html");
 	}
 }
