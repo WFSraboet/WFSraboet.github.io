@@ -101,6 +101,12 @@
   padding-bottom: 80px;
 }
 
+.pagelabel {
+  color: white;
+  font-size: 30pt;
+  margin-left: 40%;
+}
+
 .jobtitle {
   color: white;
   margin-left: 17%;
